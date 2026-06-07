@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #060b12;
+  color: #f8fafc;
+  font-family: Aptos, "Segoe UI Variable", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.light body {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+* {
+  border-color: rgba(148, 163, 184, 0.12);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.55);
+  border-radius: 999px;
+}
